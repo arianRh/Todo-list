@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar {
+	@apply flex flex-row py-3 justify-center bg-slate-600/90 sticky top-0 z-50 mb-28;
+}
+
+.input-card {
+	@apply xl:basis-5/12 md:basis-6/12 basis-9/12 rounded-md sm:py-14 py-10 px-6 mb-20 bg-slate-100 shadow-md;
+}
+
+.input {
+	@apply border-2 rounded-lg py-1 ml-4  pl-2 w-full  border-slate-400 focus:outline-none focus:border-slate-500 focus:ring-1 focus:ring-slate-500;
+}
+
+.button {
+	@apply border-2 w-6/12 active:ring-2 active:ring-slate-500 active:ring-offset-1 active:ring-offset-slate-100 mr-4 rounded-md active:transition active:ease-in-out active:-translate-y-1 active:scale-110 hover:bg-slate-200 border-slate-400 hover:border-slate-600;
+}
+
+.todo-card {
+	@apply xl:basis-6/12 md:basis-7/12 basis-10/12 rounded-tl-3xl rounded-br-3xl py-8 px-6 bg-slate-100 mb-20 shadow-md;
+}
+
+.card-title {
+	@apply text-center underline underline-offset-1 text-slate-600 hover:text-slate-700;
+}
